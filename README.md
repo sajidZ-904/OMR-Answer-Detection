@@ -1,9 +1,12 @@
+## OMR-Answer-Detection
+
 Bubble sheet multiple choice scanner and test grader using OMR, Python and OpenCV
 
 How to install locally (assuming you have git and python> = 3.7 installed):
 
 ```console
-git clone https://github.com/sajidZ-904/multiple-choice-scanner
+git clone https://github.com/sajidZ-904/OMR-Answer-Detection
+cd OMR-Answer-Detection
 python -m venv virtualenv
 source virtualenv/Scripts/activate
 pip install -r requirements.txt
