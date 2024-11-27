@@ -1,3 +1,7 @@
 opencv-python 
 opencv-python-headless 
 numpy
+Flask
+matplotlib
+imutils
+scipy

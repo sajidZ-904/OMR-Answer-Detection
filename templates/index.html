@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMR Answer Results</title>
+</head>
+<body>
+    <h1>Detected Answers</h1>
+    <ul>
+        {% for result in answer_results %}
+        <li>{{ result }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Marked Answer Sheet</h2>
+    <img src="data:image/jpeg;base64,{{ image }}" alt="Marked Image" />
+</body>
+</html>
